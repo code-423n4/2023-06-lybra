@@ -3,30 +3,12 @@
 pragma solidity ^0.8.0;
 
 contract mockLBRPriceOracle {
-    function decimals() external view returns (uint8){
-        return 8;
+    uint256 price = 10*1e8;
+
+    function setPrice(uint256 _price) external {
+        price = _price;
     }
-
-  function description() external view returns (string memory){
-    return "desc";
-  }
-
-  function version() external view returns (uint256){
-    return 1;
-  }
-
-
-
-  function latestRoundData()
-    external
-    view
-    returns (
-      uint80 roundId,
-      int256 answer,
-      uint256 startedAt,
-      uint256 updatedAt,
-      uint80 answeredInRound
-    ){
-        return (1, 15 * 1e7, 1687380923, 1687380923, 1 );
+    function latestRoundData() external view returns(uint80, int, uint, uint, uint80) {
+        return (0, int(price), 0,0,0);
     }
 }

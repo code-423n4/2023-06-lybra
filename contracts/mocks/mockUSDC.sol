@@ -27,7 +27,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
  * method, staking it and wrapping the received stETH.
  *
  */
-contract USDC is ERC20 {
+contract mockUSDC is ERC20 {
     constructor() ERC20("USDC", "USDC")
     {
         _mint(msg.sender, 1000000*1e18);
