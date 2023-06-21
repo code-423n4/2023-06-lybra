@@ -1,15 +1,16 @@
 {
-  "name": "hardhat-project",
+  "name": "lybra-protocol",
   "scripts": {
-    "build": "npx hardhat compile",
-    "test": "npx hardhat test"
+    "build": "hardhat compile",
+    "test": "hardhat test"
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
-    "hardhat": "^2.15.0"
+    "hardhat": "^2.14.0"
   },
   "dependencies": {
     "@chainlink/contracts": "^0.6.1",
-    "@openzeppelin/contracts": "^4.9.2"
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts": "^4.9.1",
+    "hardhat-gas-reporter": "^1.0.9"
   }
 }
