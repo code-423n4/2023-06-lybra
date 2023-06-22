@@ -173,5 +173,5 @@ With the rollout of V2, Lybra will be introducing peUSD into its ecosystem. Cons
 ## Quickstart command
 
 ```
-rm -Rf 2023-06-lybra || true && git clone https://github.com/code-423n4/2023-06-lybra.git -j8 && cd 2023-06-lybra && npm install && npm run build && npm run test
+rm -Rf 2023-06-lybra || true && git clone https://github.com/code-423n4/2023-06-lybra.git -j8 && cd 2023-06-lybra && npm install && npm run build
 ```
