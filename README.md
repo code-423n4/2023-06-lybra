@@ -1,13 +1,13 @@
 # Lybra Finance audit details
 - Total Prize Pool: $60,500 USDC 
-  - HM awards: $40,000 USDC 
+  - HM awards: $41,250 USDC 
   - Analysis awards: $2,500 USDC 
-  - QA awards: $5,000 USDC 
+  - QA awards: $1,250 USDC 
   - Bot Race awards: $3,750 USDC 
   - Gas awards: $1,250 USDC 
   - Judge awards: $6,000 USDC 
-  - Lookout awards: $2,670 USDC 
-  - Scout awards: $500 USDC 
+  - Lookout awards: $4,000 USDC 
+  - Scout awards: $500 USDC
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2023-06-lybra-finance/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
