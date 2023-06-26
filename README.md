@@ -12,7 +12,7 @@
 - Submit findings [using the C4 form](https://code4rena.com/contests/2023-06-lybra-finance/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts June 23, 2023 20:00 UTC 
-- Ends June 30, 2023 20:00 UTC 
+- Ends July 3, 2023 20:00 UTC 
 
 ## Automated Findings / Publicly Known Issues
 
