@@ -1,0 +1,1999 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q2-2023 / lybra-jun23
+==============================================================
+
+[06/21/2023 21:06] itsbritt#0491 (pinned)
+👋 Hello and welcome to the audit channel for the $60,500 USDC **Lybra Finance** audit!
+
+📆 Audit opens 06/23/2023 20:00 (20:00 UTC) and runs through Monday, 03 July 2023 20:00 (20:00 UTC) (10 days).
+
+Please give a warm welcome to the Lybra Finance team, particularly @simpler & @ST who will be available for questions either here in the channel or via DM in the SGT (GMT+8) timezone.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this audit, consider enabling notifications for this channel. 🐺 ⏰
+
+Audit Page: https://code4rena.com/contests/2023-06-lybra-finance
+
+{Embed}
+https://code4rena.com/contests/2023-06-lybra-finance
+Code4rena
+Code4rena is a competitive audit platform that finds more high-severity vulnerabilities, more quickly than any other auditing method.
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/c4-og-banner-3E5BC.png
+
+{Reactions}
+🙌 (18) 👋 (8) code4rena (5) 🎉 (5) 
+
+[06/23/2023 13:47] itsmetechjay
+Pinned a message.
+
+
+[06/23/2023 20:03] 0xffchain
+?
+
+
+[06/23/2023 20:05] 0xmarketing
+Hello wardens! We’re excited to work with you on the audit of our v2 contracts! Our dev team @ST and @simpler will be ready to answer any questions you have! Please note, our team are mostly based in Asia, so please take into consideration the time zones when it comes to the speed of responses! 🙏
+
+{Reactions}
+👋 (11) hi5 (2) 🤗 (3) 
+
+[06/23/2023 20:06] 0xmarketing
+Is everything OK? 🙂
+
+
+[06/23/2023 20:07] 0xkazimm
+thanks ser same to us
+
+{Reactions}
+❤️ 
+
+[06/23/2023 20:08] redtiger_auditor
+Hey!  @0xMarketing @simpler  @ST  can we have tests please ? It'll make everyone lives easier and leaver wardens more time to find vulnerabilities
+
+
+[06/23/2023 20:08] 0xkazimm
+did this protocol have any previous audit reports ? if yes can we read it please ? and is there any good resources explaining v2 ?
+
+
+[06/23/2023 20:08] simpler#6811 (pinned)
+Hi, tests are not availlable.
+
+
+[06/23/2023 20:08] clemhate
+Hey ! First time participating in an audit ! i'm on the lookout to find something maybe !
+
+{Reactions}
+hi5 
+
+[06/23/2023 20:09] 0xmarketing (pinned)
+No this is the first audit! Sure, we have some documention on v2 which you can find on our medium: https://medium.com/@Lybra_Finance/expanding-beyond-steth-how-to-use-a-wide-range-of-different-lsds-with-the-lybra-v2-protocol-aca3207c624b
+
+{Embed}
+https://medium.com/@Lybra_Finance/expanding-beyond-steth-how-to-use-a-wide-range-of-different-lsds-with-the-lybra-v2-protocol-aca3207c624b
+Expanding Beyond stETH: How To Use A Wide Range Of Different LSTs W...
+The Lybra Universe Is Expanding…
+
+{Reactions}
+👍🏻 (3) 
+
+[06/23/2023 20:10] 0xkazimm
+thanks for sharing and hope we can work together to make the protocol much safer 🙂
+
+{Reactions}
+hi5 
+
+[06/23/2023 20:10] simpler#6811
+Thanks everyone for participating. Before we get started, I suggest taking a look at the README file first.
+
+{Reactions}
+✅ 
+
+[06/23/2023 20:10] 0xmarketing
+Any questions on v2, please ask!
+
+
+[06/23/2023 20:13] 0xkazimm
+what chain did the protocol deployed on ?
+
+
+[06/23/2023 20:14] 0xkazimm
+it mentioned its multi chain so did it support any l2 or non evm chains ?!
+
+
+[06/23/2023 20:14] simpler#6811
+Ethereum mainnet and Arbitrum
+
+{Reactions}
+👍🏻 (3) 
+
+[06/23/2023 20:14] 0xkazimm
+did the protocol planning to support more l2 in future with the same codebase please ?
+
+
+[06/23/2023 20:15] simpler#6811 (pinned)
+If this helps, you can also read our V2 technical docs. It's not complete tho
+https://docs.lybra.finance/lybra-v2-technical-beta/overview/the-lybra-v2-smart-contracts
+
+{Embed}
+https://docs.lybra.finance/lybra-v2-technical-beta/overview/the-lybra-v2-smart-contracts
+The Lybra V2 Smart Contracts
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/sJjqUz6lG62llZ5FWrbH-8F20B.png
+
+{Reactions}
+👍🏻 (2) 
+
+[06/23/2023 20:15] simpler#6811
+Yes
+
+{Reactions}
+❤️ 
+
+[06/23/2023 20:16] 0xkazimm
+thanks a lot ser 🙂
+
+
+[06/23/2023 20:27] redtiger_auditor
+Thanks. Docs seems ton contain functions that does not exists in code like : getPeUSDMaxSupply
+
+
+[06/23/2023 20:34] kartoonjoy
+Pinned a message.
+
+
+[06/23/2023 20:34] kartoonjoy
+Pinned a message.
+
+
+[06/23/2023 20:34] kartoonjoy
+Pinned a message.
+
+
+[06/23/2023 20:50] sovaslava9
+
+
+{Attachments}
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/ca60e7babd8529ccb0439d59abe350b5-69D7D.png
+
+{Reactions}
+🥲 (9) 
+
+[06/23/2023 21:00] sovaslava9
+On which networks project plan will deploy?
+
+
+[06/23/2023 21:06] 0xnevi
+Wait no tests 😬?
+
+{Reactions}
+👀 (4) 
+
+[06/23/2023 21:41] 0xmarketing
+Ethereum Mainnet, and Arbitrum
+
+
+[06/23/2023 21:41] 0xmarketing
+Other L2’s in future with same code base!
+
+
+[06/23/2023 21:41] 0xmarketing
+Sorry 😦
+
+
+[06/23/2023 21:41] redtiger_auditor
+Excuse me, but no test, no deploy scripts, it'll be near impossible to write POC for vulnerabilities  within 7 days , and audit the whole codebase
+
+
+[06/23/2023 21:43] kaiziron
+is there script to deploy it? or can you briefly talk about how it is deployed?
+
+
+[06/23/2023 21:57] co0nan
+Guys its their first audit so lets show some respect to their time and effort without complaining. Let’s just focus on what is available and do our best to help, it’s not we against the team, we work together.
+
+{Reactions}
+thankyou (13) ❤️ (18) 👍 (18) 
+
+[06/23/2023 22:17] 0xmarketing
+Thank you very much, we’re sorry and we’ll know for next time 🙂
+
+{Reactions}
+👍 (4) hi5 
+
+[06/23/2023 22:19] co0nan
+You don’t have to. Thanks for giving as the chance to work together.
+
+{Reactions}
+💜 (6) hi5 (7) 
+
+[06/23/2023 22:23] cloudellie
+Just to build on @Co0nan's sentiment: without wanting to shut down questions or discussion, I hope Code4rena continues to be welcoming and encouraging to startups as well as more established projects. 
+
+Getting an audit is courageous (https://docs.code4rena.com/philosophy/security-is-about-people#getting-an-audit-is-courageous) and yes, more test coverage is always better -- but everybody starts somewhere and I know we can help the Lybra team get great value from their C4 audit. :cyberheart:
+
+{Embed}
+https://docs.code4rena.com/philosophy/security-is-about-people
+Security is about people
+
+{Reactions}
+🦾 (15) code4rena (12) hi5 (8) 
+
+[06/23/2023 23:15] liveactionllamac4 (pinned)
+**Wardens** - please note that the automated findings output (AKA the winning bot race report 🏆, submitted by @IllIllI) is posted below. 
+
+These are considered publicly known issues and are not eligible for awards.
+
+🤖 **Automated findings: **
+https://gist.github.com/liveactionllama/27513952718ec3cbcf9de0fda7fef49c
+
+📄 **Code4rena submission guidelines and automated findings policy: **
+https://docs.code4rena.com/roles/wardens/submission-policy#automated-findings-ineligible
+
+The above link will also be added to the contest README shortly.
+
+{Reactions}
+hearteyesrobot (4) 
+
+[06/23/2023 23:15] liveactionllamac4
+Pinned a message.
+
+
+[06/24/2023 01:29] olanre_waju
+In the eUSD token contract, it seems the shares is a dynamic data, I can't see where and how it stated on how it will be derived. 
+
+Additional, the Vue of the data will determine the value of balanceOF, so how will the Value of am address shares be derived?
+
+
+[06/24/2023 01:34] ST#7092
+Regarding the design of eUSD, both V2 and V1 are consistent. Please refer to the eUSD documentation in V1 at https://docs.lybra.finance/lybra-finance-docs/overview/introduction-to-the-lybra-protocol/what-is-eusd.
+
+
+[06/24/2023 01:36] ST#7092
+In simple terms, the calculation formulas for shares and balance are the same as those in the stETH contract.
+
+
+[06/24/2023 01:58] olanre_waju
+Ok thanks.
+
+
+[06/24/2023 04:54] simpler#6811
+The docs are not complete and they're not up-to-date. So, there may be some differences.
+
+
+[06/24/2023 07:36] mrpotatomagic
+@simpler dmed you
+
+
+[06/24/2023 08:56] simpler#6811
+Saw and replied
+
+
+[06/24/2023 10:30] adarji
+Gonna be fun 🤩
+
+
+[06/24/2023 10:30] adarji
+Dev teams not written any tests
+
+
+[06/24/2023 10:31] adarji
+👀 for many bugs in the contest
+
+
+[06/24/2023 10:41] cryptic_shepherd
+Hi Lybra team, how do you plan to migrate the already deployed LBR token to the new OFT version?
+
+
+[06/24/2023 10:42] 0xmarketing
+@Co0nan thanks for your DM, please can you send your questions to @simpler
+
+{Reactions}
+✅ 
+
+[06/24/2023 10:42] 0xmarketing
+We will be deploying new token contracts
+
+
+[06/24/2023 10:45] cryptic_shepherd
+thanks, what will the path for holders be to convert old LBR to new LBR?
+
+
+[06/24/2023 10:45] 0xkazimm
+did the protocol support other tokens as collateral ? if yes which tokens please ?
+
+
+[06/24/2023 10:45] sovaslava9
+Could you write address of WBETH contract in arbitrum?  which will be uses in LybraWbETHVault.sol
+
+
+[06/24/2023 11:01] sovaslava9
+why contract try to ignore errors in  refreshMintReward() , using try configurator.refreshMintReward(_provider) {} catch {}   ?
+
+
+[06/24/2023 11:11] 0xkazimm
+@simpler can you check your dm please
+
+
+[06/24/2023 11:26] simpler#6811
+We will take a snapshot and airdrop the new token
+
+{Reactions}
+🔥 (2) 
+
+[06/24/2023 11:27] simpler#6811
+It's will support main LSTs, such as BETH, rETH, frxETH, etc.
+
+{Reactions}
+👍🏻 
+
+[06/24/2023 11:27] simpler#6811
+The deposit and mint logic is only available on mainnet
+
+
+[06/24/2023 11:27] 0xkazimm
+thank you ser
+
+
+[06/24/2023 11:34] co0nan
+DMed you @simpler
+
+
+[06/24/2023 11:41] 0xkazimm
+where i can found the contract that this line point to ? 
+```
+IPriceFeed immutable etherOracle
+
+```
+
+
+[06/24/2023 11:51] _3agle
+@simpler pls check DM
+
+
+[06/24/2023 12:02] 0xmarketing
+From v2 launch, I believe it is only wBETH, rETH, wstETH but with scope to add more in accordance with the DAO
+
+
+[06/24/2023 12:23] simpler#6811
+This is to prevent the main logic from being unable to execute due to errors in mining configuration.
+
+
+[06/24/2023 12:36] simpler#6811
+Need only to check out hardcoded contract address. It uses the LUSD oracle just like our V1.
+
+
+[06/24/2023 12:47] cryptic_shepherd
+Is there a way to figure out which parts of the system will be deployed on mainnet only and which ones will be deployed across multiple chains/L2s? e.g. will the rewards (miner) module be deployed across multiple chains/L2s, now or in the future?
+
+
+[06/24/2023 12:52] ST#7092
+Currently, in V2, only peUSD and LBR token will exist on other Layer 2 networks, while all other contracts are on the mainnet.
+
+{Reactions}
+thankyou (2) 
+
+[06/24/2023 12:55] 0xkazimm
+true, can we have the repo of the v1 contracts please, to get better understand how the protocol work.
+
+
+[06/24/2023 12:58] ST#7092
+The address of the oracle is https://etherscan.io/address/0x4c517D4e2C851CA76d7eC94B805269Df0f2201De#code.
+
+{Embed}
+https://etherscan.io/address/0x4c517D4e2C851CA76d7eC94B805269Df0f2201De
+Liquity: Price Feed | Address 0x4c517D4e2C851CA76d7eC94B805269Df0f2...
+The Contract Address 0x4c517D4e2C851CA76d7eC94B805269Df0f2201De page allows users to view the source code, transactions, balances, and analytics for the contract address. Users can also interact and make transactions to the contract directly on Etherscan.
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/etherscan-logo-circle-A29B1.jpg
+
+{Reactions}
+👍🏻 
+
+[06/24/2023 13:03] ST#7092
+Let me briefly explain the pricing of each vault's collateral. It is done through the getAssetPrice() function, which retrieves the USD price of the respective LST. The internal logic of the function involves using the LUSD oracle to fetch the ETH-USD price, and then using the ETH exchange rate provided by each LST contract to calculate the price of each LST.
+
+
+[06/24/2023 13:07] simpler#6811 (pinned)
+We don't have a repo for v1 contracts. But you can view main contracts here
+https://docs.lybra.finance/lybra-finance-docs/supplement/contracts
+
+{Embed}
+https://docs.lybra.finance/lybra-finance-docs/supplement/contracts
+Contracts
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/OryBcORwqfsKpyMwn1Bp-2538D.png
+
+{Reactions}
+🙏🏻 
+
+[06/24/2023 14:00] 0xkazimm
+ser did this line return the block number at which the fee updated or the second that the updateAt function is called(10 second or 30 minute for example) 
+`mapping(address => uint256) feeUpdatedAt`
+
+
+[06/24/2023 14:09] cloudellie (pinned)
+**❗ Correction to QA award pool amount**
+
+Wardens, please note that the `README` for this audit was displaying an **incorrect amount for the QA pool. **It has been corrected to match the award breakdown that was posted in the RSVP (https://discord.com/channels/810916927919620096/958800160870240286/1120324651663491132). 
+
+Our apologies for the oversight!
+
+{Reactions}
+🫡 (2) 
+
+[06/24/2023 14:09] cloudellie
+Pinned a message.
+
+
+[06/24/2023 14:14] simpler#6811
+This is the timestamp when the service fee was updated.
+
+{Reactions}
+❤️ 
+
+[06/24/2023 14:23] patricksfeir
+Did the project do any unit tests or fuzzing ?
+
+
+[06/24/2023 14:25] simpler#6811
+No, it's fresh code
+
+
+[06/24/2023 14:35] patricksfeir
+I know I can use surya but do you have any mind maps to fully understand the design architecture of project faster?
+
+
+[06/24/2023 14:45] ST#7092
+The documentation for Lybra V2 is still under development. In the meantime, you can refer to the documentation for Lybra V1 at https://docs.lybra.finance/lybra-finance-docs/overview/introduction-to-the-lybra-protocol and the development documentation for Lybra V2 at https://app.gitbook.com/o/YOFNEDM6XbEI81FH6JqB/s/sUbSZiHqINLIuqxcaZls/overview/the-lybra-v2-smart-contracts.
+
+{Embed}
+https://app.gitbook.com/o/YOFNEDM6XbEI81FH6JqB/s/sUbSZiHqINLIuqxcaZls/overview/the-lybra-v2-smart-contracts.
+GitBook
+GitBook
+
+{Reactions}
+👍🏻 (2) 
+
+[06/24/2023 14:47] ST#7092
+This Twitter thread about V2 might be helpful: https://twitter.com/LybraFinanceLSD/status/1671224028928024576.
+
+
+[06/24/2023 14:50] ST#7092
+Here is a simple workflow diagram.
+
+{Attachments}
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/IMG_6416-BBF5D.jpg
+
+{Reactions}
+🚀 (5) 
+
+[06/24/2023 15:07] wahedtalash77#8433
+Hi, does anyone know about groundbreaking defi protocol
+
+
+[06/24/2023 16:28] kartoonjoy
+Pinned a message.
+
+
+[06/24/2023 16:30] kartoonjoy
+Started a thread.
+
+
+[06/24/2023 18:36] torpedopistolixc41
+Hello ser im new sorry if my question too primitive. Did u deploy the codebase into local or test net for sanity check or deployment code-size ?
+
+
+[06/24/2023 18:40] blocksails
+https://stackoverflow.com/help/how-to-ask
+
+{Embed}
+https://stackoverflow.com/help/how-to-ask
+How do I ask a good question? - Help Center
+Stack Overflow | The World’s Largest Online Community for Developers
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/apple-touch-icon%402-C50E4.png
+
+
+[06/24/2023 19:34] patricksfeir
+Anyone interested in teaming up to create unit and fuzz tests ?
+
+
+[06/24/2023 21:16] ayo#6131
+When submitting for gas optimization should me make reference to the line of code or we should just write the reason one is cheaper, write an code example and state the contract it's in
+
+
+[06/25/2023 00:04] ST#7092
+It has been tested locally, and additionally, we have deployed it several times on the Goerli testnet.
+
+
+[06/25/2023 00:05] ST#7092
+I'm not entirely sure, perhaps Code4rena has regulations regarding this aspect?
+
+
+[06/25/2023 00:38] torpedopistolixc41
+i see thanks for reply
+
+
+[06/25/2023 01:39] kaiziron
+any address for the deployed contract on goerli?
+
+
+[06/25/2023 02:05] jes5_c
+wait it was tested? can we see the tests in that case?🤔
+
+
+[06/25/2023 02:42] ST#7092
+We have only conducted basic deployment testing, and now that the audit version has been locked, we are unable to upload test cases.
+
+{Reactions}
+👍 
+
+[06/25/2023 02:45] ST#7092
+This is a simple deployment script.
+
+{Attachments}
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/deploy-F471B.js
+
+{Reactions}
+👍 (7) 🎉 (5) 
+
+[06/25/2023 13:30] sovaslava9
+Why "a max of 50% collateral can be liquidated" ?   LybraPeUSDVaultBase.sol:liquidation
+
+
+[06/25/2023 13:34] co0nan
+this is the case when the user collateral is between 125-150%. if it below 125 you can fully liquiditae.
+
+
+[06/25/2023 13:39] sovaslava9
+where i can see it in code? I see common require for all cases.. 125.150,100..
+
+
+[06/25/2023 13:43] 0xkazimm
+did `_totalShares` refers to total share amount in the `EUSD` contract ?!
+
+
+[06/25/2023 13:51] co0nan
+Oh wait I didn’t notice you were referring to PeUSD pool, this one doesnt have superLiquidiate function. Let’s wait for the team response on this one.
+
+
+[06/25/2023 13:55] ST#7092
+In the vault for peUSD, there is only the regular liquidation mode, which can be executed when a user's individual collateral ratio falls below the badCollateralRatio of that vault. Each liquidation can seize up to 50% of the user's collateral.
+
+
+[06/25/2023 13:56] ST#7092
+Yes
+
+{Reactions}
+❤️ 
+
+[06/25/2023 15:01] 0xkazimm
+did `onlyMintVault` modifier mean that the function is callable only by the lybra rebase/non rebase contracts ?!
+
+
+[06/25/2023 16:04] 0x0oz
+foundry test file setup with all imports, all deployments and configs are taken from the deploy.js ST provided above.
+ready for anyone to play with the codebase with scripts or tests.
+with a custom remappings for a reason...
+
+{Attachments}
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/contest.t-7F0EB.sol
+
+{Reactions}
+🔥 (11) ❤️ (7) 
+
+[06/25/2023 17:40] evokid
+Exactly. Any Warden can create his own foundry test files. Take time and create specific test that you need for your vulns that you got in your Audit process. Not always you will get all resources on the table front of you but you still create few test files for your POC 👍
+
+
+[06/26/2023 01:31] ST#7092
+Yes
+
+{Reactions}
+👍🏻 
+
+[06/26/2023 07:16] jammyaa
+Hi my friend @ST , Could you explain about the difference between rebase vault and non-rebase vault? Thank you so much
+
+
+[06/26/2023 07:22] csjaybit
+hello sir
+
+
+[06/26/2023 07:23] csjaybit
+why there is 0% test coverage in protocol?
+
+
+[06/26/2023 07:29] csjaybit
+rebase token holders balance can change without any tranfers thats why different vault for rebase tokens I guess
+
+
+[06/26/2023 07:47] jammyaa
+Got it. It means that, after 1 year, with stETH (rebase token), the price of stETH will always = native ETH, the profit expressed in the amount of stETH increased (exp 20%). With wstETH (non-rebase token), the price of wstETH will = 120% the price of native ETH but the amount is not changed. Right?
+
+
+[06/26/2023 08:04] ST#7092
+In the Lybra V2 protocol, we support using both rebase and non-rebase Lst as collateral, with each collateral type having its own vault. For non-rebase assets, since their collateral amount does not change, the protocol does not directly capture LSD earnings. The vault associated with this type of asset can mint peUSD (peg-eUSD) instead of eUSD.
+On the other hand, for rebase assets such as stETH, the vault captures LSD earnings and converts them into interest in eUSD. Therefore, the vault of this type can mint eUSD, allowing borrowers to enjoy stablecoin interest rates of up to 8%+.
+
+{Reactions}
+👍🏻 (2) 
+
+[06/26/2023 08:05] deth2814
+Quick question can anyone be a Keeper? Nvm just read it in the docs.
+
+
+[06/26/2023 08:15] ST#7092
+Yes
+
+
+[06/26/2023 10:06] zaevlad
+@ST dm you, thanks
+
+
+[06/26/2023 10:06] patricksfeir
+Each 1 eUSD is backed by at least $1.5 worth of stETH as collateral.
+
+{Attachments}
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/Screenshot_462-05949.png
+
+
+[06/26/2023 11:48] golanger
+@simpler just sent a friend request to dm 👍
+
+
+[06/26/2023 11:48] golanger
+@ST dm you ser friend request sent
+
+
+[06/26/2023 13:31] radev_sw
+I think [M‑01], [M‑06], [M‑07] and [M‑08] vulnerabilities should be Low severity
+
+{Reactions}
+☝️ 
+
+[06/26/2023 13:38] illilli000
+it's hard to tell in the hour we have to run our bots. Is there something you can point to in the code (not discord sponsor statements) that would have indicated this? I'd of course prefer to minimize false positives where possible
+
+
+[06/26/2023 14:57] ladboy233
+@simpler @ST Dmed
+
+
+[06/26/2023 16:19] road220
+What about H-2, why 1:1 is not possible? I'm not talking about DEXes, withdrawing directly from Lido should provide 1:1 rate.
+Btw, great automated report!
+
+
+[06/26/2023 16:21] illilli000
+thanks! That puts trust in lido, which is why DEXes discount the price
+
+
+[06/26/2023 16:23] road220
+The only issue with Lido's withdrawals is the fact that it takes some time in order to proceed the withdrawal! When you submit the quote, the share rate is fixed and cannot be changed upon the batch finalization.
+
+
+[06/26/2023 16:24] illilli000
+if there is a market price which is different from the price stipulated by the lido company, the protocol should not blindly offer this guarantee on behalf of lido
+
+
+[06/26/2023 16:31] road220
+I think, the whole case was described somewhere here: https://hackmd.io/fVmtkj3vSkCUvVIJ1r6PcA#Withdrawal-queue-mechanics
+
+
+[06/26/2023 16:34] illilli000
+it says `During the processing time, the requested Ether is at risk of being slashed. Therefore, it is not fair to give the user Ether according to the amount of the locked stETH.`, and that it relies on daily oracle update, both of which are externalities that Eth itself does not have
+
+
+[06/26/2023 16:50] road220
+yeah, agree. Anyways, in almost every case the redemption rate should be close to 1:1, since the probability that the negative rebase occurs is extremely low. If the AccountingOracle starts to submit negative rebases continuously, the bunker mode will be enabled(so the withdrawals will be halted) and the exchange rate on DEXes will also fall a lot, since the stakers will rush to redeem their eth.
+
+
+[06/26/2023 16:51] illilli000
+yup, that's the market discount
+
+
+[06/26/2023 18:14] co0nan
+Anyone got the address of the collateralAsset contract for `LybraStETHVault` ? I'm looking for the implementation of the `submit` function
+
+```
+Ilido(address(collateralAsset)).submit{value: msg.value}(address(configurator));
+```
+
+
+[06/26/2023 18:14] anthonyyy4000
+https://etherscan.io/token/0xae7ab96520de3a18e5e111b5eaab095312d7fe84?a=0x97de57eC338AB5d51557DA3434828C5DbFaDA371 the collateral asset in this case is stETH
+
+{Embed}
+https://etherscan.io/token/0xae7ab96520de3a18e5e111b5eaab095312d7fe84?a=0x97de57eC338AB5d51557DA3434828C5DbFaDA371
+stETH (stETH) Token Tracker | Etherscan
+stETH (stETH) Token Tracker on Etherscan shows the price of the Token $1,847.18, total supply 7,410,264.141295307994219076, number of holders 216,966 and updated information of the token. The token tracker page also shows the analytics and historical data.
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/lido-steth_128-88041.png
+
+
+[06/26/2023 18:15] anthonyyy4000
+or in some case can be wstETH
+
+
+[06/26/2023 18:15] co0nan
+I know it's stETH, I just can't find the code, https://github.com/lidofinance/lido-dao/blob/master/contracts/0.4.24/StETH.sol This one doesn't seem to have `submit` function.
+
+
+[06/26/2023 18:17] 0xkazimm
+the contract address have the submit function, its proxy check the write proxy.
+
+
+[06/26/2023 18:18] 0xkazimm
+https://etherscan.io/address/0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84#writeProxyContract#F16
+
+{Embed}
+https://etherscan.io/address/0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84
+Lido: stETH Token | Address 0xae7ab96520DE3A18E5e111B5EaAb095312D7f...
+The Contract Address 0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84 page allows users to view the source code, transactions, balances, and analytics for the contract address. Users can also interact and make transactions to the contract directly on Etherscan.
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/etherscan-logo-circle-A29B1.jpg
+
+
+[06/26/2023 18:18] co0nan
+https://etherscan.io/address/0x17144556fd3424edc8fc8a4c940b2d04936d17eb#code
+
+
+[06/26/2023 18:18] 0xkazimm
+they set the version that i send it to you for some reason!
+
+
+[06/26/2023 18:19] co0nan
+the address you sent is a proxy,. this one has the logic which include the implementation of submit function.
+
+{Reactions}
+👍🏻 
+
+[06/26/2023 18:20] 0xkazimm
+it exist for me ser
+
+{Attachments}
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/Screenshot_2023-06-26_211942-2FE4A.png
+
+
+[06/26/2023 18:20] co0nan
+which address?
+
+
+[06/26/2023 18:20] 0xkazimm
+that you send it to me.
+
+
+[06/26/2023 18:21] co0nan
+yup :))
+
+{Reactions}
+👍🏻 
+
+[06/26/2023 18:21] 0xkazimm
+you found it ?
+
+
+[06/26/2023 18:21] co0nan
+Yes.
+
+{Reactions}
+👍🏻 
+
+[06/26/2023 18:22] 0xkazimm
+great, glade to help you ser 🙂
+
+
+[06/26/2023 19:45] b80.nacho
+Hey, you can also find the code here: https://github.com/lidofinance/lido-dao/blob/master/contracts/0.4.24/Lido.sol#L922-L947
+
+
+[06/26/2023 20:36] road220
+Hey everyone, a little bit late, but not for sharing some fancy diagrams! 
+Check out here the general part: 
+
+https://twitter.com/m_Rassska/status/1673429024922558466
+
+Will share more as time goes by! Any feedback is appreciated!
+
+{Embed}
+m_Rassska (@m_Rassska)
+https://twitter.com/m_Rassska/status/1673429024922558466
+Hey everyone! 
+
+Decided to participate in @LybraFinanceLSD contest on @code4rena , since I do have some experience working with LSDs. Along with that I'll share some fancy diagrams in order to bring some collaborative vibes to the community!
+
+Stay tuned as I will dive deeeeeper!
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/Fzk2zG4WwAYye2y-BE2E9.jpg
+Twitter
+
+{Reactions}
+hi5 (7) ✅ 
+
+[06/26/2023 20:39] 0xmarketing
+This is great!
+
+{Reactions}
+❤️ 
+
+[06/26/2023 20:41] patricksfeir
+constructor(address _peusd, address _oracle, address _asset, address _config)
+        LybraPeUSDVaultBase(_peusd, _oracle, _asset, _config) {}  Can you provide us with these address or should I deploy my own to be able to use them in tests ?
+
+
+[06/26/2023 21:49] .ke1cam
+Can someone tell me more about tokenMiners? Which contracts will be able to mint/burn esLBR and LBR tokens?
+
+
+[06/26/2023 22:20] 0xkazimm
+In which function/contratc LPs can provide liquidity to ETH/eusd pool ?
+
+
+[06/26/2023 22:20] 0xkazimm
+I think the rewards distribution contracts, still not reviewing this part.
+
+{Reactions}
+❤️ 
+
+[06/26/2023 22:33] itsmetechjay (pinned)
+Hi all, this audit has been extended to run until July 3, 2023.  The website has been updated.
+
+{Reactions}
+nice (12) chefskiss (14) thankyou (7) 
+
+[06/26/2023 22:35] liveactionllamac4
+Pinned a message.
+
+{Reactions}
+thankyou (6) 
+
+[06/26/2023 23:19] 0xcatellatech
+Same
+
+
+[06/26/2023 23:26] 0xkazimm
+With my knowledge to the protocol for now, i think its mean to eusd. And the team may correct it if I’m misunderstanding it 🙌🏼
+
+
+[06/27/2023 06:43] _3agle
+What is the difference between `PeUSD` & `PeUSDMainnetStableVersion`
+
+
+[06/27/2023 06:58] csjaybit
+great question
+
+
+[06/27/2023 07:04] mrpotatomagic
+I think PeUSD is on L2 while mainnetvision on mainnet
+
+
+[06/27/2023 08:19] csjaybit
+what what message you replied to?
+
+
+[06/27/2023 09:36] lourenslinde
+@simpler sent you a friend request :gummy_wink:
+
+
+[06/27/2023 10:30] 0xkazimm
+The message deleted 😦
+
+
+[06/27/2023 10:33] 0xmarketing
+Hey all! Just wanna say a big thanks for your support and work so far! This audit has been great already, really impressed with Code4rena and the wardens!
+
+{Reactions}
+thankyou (11) 🙇‍♂️ (3) hi5 
+
+[06/27/2023 11:53] 0xkazimm
+what the dt refers to here ? 
+` Sum of (reward ratio * dt * 1e18 / total supply)`
+
+
+[06/27/2023 12:02] csjaybit
+yeah but you replied means you know question
+
+
+[06/27/2023 12:02] csjaybit
+alright I got what it could be
+
+
+[06/27/2023 12:03] 0xkazimm
+i think it was something about using any stable coins in rewards contracts 🙂
+
+
+[06/27/2023 12:05] csjaybit
+yeah must be PeUSD lol
+
+
+[06/27/2023 12:14] 0xkazimm
+is there any docs/resources explaining the EUSDMiningIncentives ,ProtocolRewardsPool contracts ?
+
+
+[06/27/2023 12:47] simpler#6811
+Not sure if this one helps.
+https://medium.com/@Lybra_Finance/lbr-phase-2-mining-program-and-temporary-lockdown-mechanism-a50a63c29425
+
+{Embed}
+https://medium.com/@Lybra_Finance/lbr-phase-2-mining-program-and-temporary-lockdown-mechanism-a50a63c29425
+LBR Phase 2 Mining Program and Temporary Lockdown Mechanism
+Dear Lybrans,
+
+{Reactions}
+❤️ 
+
+[06/27/2023 12:53] sp1cymeatball
+@simpler hey! Sent you a DM.
+
+
+[06/27/2023 13:12] 0x3b
+send a FR request
+
+
+[06/27/2023 13:37] 0xmarketing
+OK if this is with regards to the audit please DM @simpler and @ST 🙂
+
+
+[06/27/2023 13:40] 0x3b
+ah ok
+
+
+[06/27/2023 14:28] 0xnirlin
+hey, so the in scope contracts, have been not audited before? And are there any docs availible for v2?
+
+
+[06/27/2023 15:10] 0xkazimm
+check this bro
+
+
+[06/27/2023 15:10] 0xkazimm
+@nirlin
+
+
+[06/27/2023 15:11] 0xkazimm
+@nirlin
+
+
+[06/27/2023 17:19] deth2814
+@simpler Hey, just sent a DM.
+
+
+[06/27/2023 17:26] aga7hokakological
+I know I shoudl not ask but If anyone can share basic setup for tests(foundry, hardhat anything works) will be great I tried creating one but failing miserably🙏
+
+
+[06/27/2023 17:43] max10afternoon
+@aga7hokakological
+
+
+[06/27/2023 17:48] aga7hokakological
+thanks
+
+
+[06/27/2023 18:19] CoOLLaItAr#5816
+I can't find the implementation of `_setRoleAdmin` in the whole GovernanceTimelock.sol and even in the TimelockController.sol
+
+
+[06/27/2023 18:24] mrpotatomagic
+it's here in AccessControl.sol 
+https://github.com/OpenZeppelin/openzeppelin-contracts/blob/f29307cfe08c7d76d96a38bf94bab5fec223c943/contracts/access/AccessControl.sol#L184
+
+{Embed}
+https://github.com/OpenZeppelin/openzeppelin-contracts/blob/f29307cfe08c7d76d96a38bf94bab5fec223c943/contracts/access/AccessControl.sol
+openzeppelin-contracts/contracts/access/AccessControl.sol at f29307...
+OpenZeppelin Contracts is a library for secure smart contract development. - openzeppelin-contracts/contracts/access/AccessControl.sol at f29307cfe08c7d76d96a38bf94bab5fec223c943 · OpenZeppelin/ope...
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/openzeppelin-contracts-102F4
+
+
+[06/27/2023 19:10] CoOLLaItAr#5816
+Thanks!
+
+
+[06/27/2023 20:10] CoOLLaItAr#5816
+for what Iconfigurator.sol used?
+
+
+[06/27/2023 20:42] anirruth
+is there an explanation for the grabEsLBR function in ProtocolRewardsPool.sol
+
+
+[06/27/2023 20:44] 0xkazimm
+i understand that this function will make claim to the esLBR tokens that get lost in the contract(maybe not claimed or emitted wrongly or anything else) but the idea is grabing esLBR using LBR tokens(burn LBR and get esLBR to balance the token balance maybe)
+
+{Reactions}
+👍 
+
+[06/27/2023 21:03] 0xkazimm
+when did the LBR holder can stake their LBR tokens to earn esLBR please ?
+
+
+[06/27/2023 21:39] bauchibred
+Hi @simpler, sent you a FR
+
+
+[06/27/2023 22:25] co0nan
+AFAIK, there are not suppose to earn esLBR, they are stacking LBR it to mint it.
+
+{Reactions}
+❤️ 
+
+[06/27/2023 22:25] 0xkazimm
+oh thanks ser 🙂
+
+
+[06/28/2023 01:51] kutugu
+@ST send a dm
+
+
+[06/28/2023 07:03] lourenslinde
+@ST sent you a friend request 🙂
+
+
+[06/28/2023 08:03] golanger
+@ST trying to dm you ser
+
+
+[06/28/2023 08:13] prapandey031
+@ST sent you a dm🙂
+
+
+[06/28/2023 10:02] csjaybit
+can we have foundry version please?🙂
+
+
+[06/28/2023 10:06] _3agle
+It's already there: https://discord.com/channels/810916927919620096/1121168405534343270/1122557981469450332
+
+
+[06/28/2023 10:20] csjaybit
+thank u
+
+
+[06/28/2023 11:08] azhar0406
+Just want to make sure Lybra is using this WBETH token as collateral, right?  https://etherscan.io/token/0xa2e3356610840701bdf5611a53974510ae27e2e1
+
+{Embed}
+https://etherscan.io/token/0xa2e3356610840701bdf5611a53974510ae27e2e1
+Wrapped Binance Beacon ETH (wBETH) Token Tracker | Etherscan
+Wrapped Binance Beacon ETH (wBETH) Token Tracker on Etherscan shows the price of the Token $0.00, total supply 20,834.493388569072150951, number of holders 197 and updated information of the token. The token tracker page also shows the analytics and historical data.
+
+{Reactions}
+👍 (2) 
+
+[06/28/2023 11:17] _3agle
+@simpler can you please explain the terms `shares` and `token` in context of eUSD
+
+{Reactions}
+❗ 
+
+[06/28/2023 11:26] zaevlad
+@simpler what contract where users can create a proposal?
+
+
+[06/28/2023 13:07] 0x3b
+@simpler  
+In `EUSDMiningIncentives.stakedLBRLpValue()`, which token is `ethlbrLpToken`, do we have the code for it or is it EUSD?
+
+
+[06/28/2023 14:11] ST#7092
+0x04394C8E17Aced699A90AE9448A184B3fc6B6042 
+This is the UNI V2 ETH/LBR LP currently being used in the current V1 version.
+
+
+[06/28/2023 14:13] ST#7092
+Please refer to the relevant documentation for stETH, or there are comments at the beginning of the eUSD contract that provide an explanation.
+
+
+[06/28/2023 14:24] ST#7092
+LybraGovernance.sol
+
+
+[06/28/2023 15:51] cryptic_shepherd
+What is the idea behind `isOtherEarningsClaimable` in `EUSDMiningIncentives`? Is the goal to get people to provide liquidity, otherwise their rewards can be bought out by others?
+
+
+[06/28/2023 17:44] 0xkazimm
+what this map point to ? `time2fullRedemption`
+
+
+[06/28/2023 18:11] zdravkohr
+I think that it holds the time when a user will be able to fully withdraw his previously unstaked LBR tokens
+
+{Reactions}
+👍🏻 
+
+[06/28/2023 18:38] 0xkazimm
+oh i see, thanks ser
+
+
+[06/28/2023 18:38] 0xkazimm
+are there a reason The total amount of esLBR emitted daily during this period will range from 54,618 to 126,277 tokens daily ?!
+
+{Reactions}
+📈 
+
+[06/28/2023 19:49] 0xkazimm
+i think someone in this group  asked about what stablecoins refers to for the `notifyRewardAmount`  in `ProtocolRewardsPool.sol` function, according to this comment its eusd or any stablecoins:  it depends on the token type
+```
+/**
+     * @dev Receives stablecoin tokens sent by the configurator contract and records the protocol rewards accumulation per esLBR held.
+     * @param amount The amount of rewards to be distributed.
+        //audit read the line below 
+     * @param tokenType The type of token (0 for eUSD, 1 for other stablecoins, 2 for peUSD).
+     * @dev This function is called by the configurator contract to distribute rewards.
+     * @dev When receiving stablecoin tokens other than eUSD, the decimals of the token are converted to 18 for consistent calculations.
+     */
+    function notifyRewardAmount(uint amount, uint tokenType) external {
+
+```
+
+
+[06/29/2023 02:07] 0x11singh99
+@0xMarketing   here 2 versions libra finance docs shared ,  this current project on code4rena based on which version ? v1 OR v2
+
+
+[06/29/2023 02:55] ST#7092
+V2
+
+
+[06/29/2023 05:08] 0x3b
+so this LP is received when people stake at UNI?
+
+
+[06/29/2023 06:30] azhar0406
+@simpler @ST
+
+
+[06/29/2023 06:40] simpler#6811
+Will be using. It's not live yet
+
+{Reactions}
+👍 
+
+[06/29/2023 08:11] csjaybit
+what is keeper's role?
+
+
+[06/29/2023 08:27] josephdara
+Are the prices of LBR and EUSD pegged to each other?
+
+
+[06/29/2023 09:12] pep7siup_
+@simpler  Are vaults inherited from different bases (LybraPeUSDVaultBase vs LybraEUSDVaultBase) supposed to be deployed with a new/dedicated Configurator instance or they share the same one?
+
+
+[06/29/2023 09:18] ST#7092
+There is only one instance of the Configurator in the protocol.
+
+{Reactions}
+👍 
+
+[06/29/2023 09:41] 0xmarketing
+No LBR is the native governance token
+
+{Reactions}
+thankyou (2) 
+
+[06/29/2023 12:21] pep7siup_
+@ST Do we have a Curve pool already deployed somewhere?
+
+
+[06/29/2023 13:53] ST#7092
+0x880f2fb3704f1875361de6ee59629c6c6497a5e3  This is the curve eUSD/USDC pool, V1 version.
+
+
+[06/29/2023 13:58] golanger
+@ST can you accept my friend request? I have a private question to ask you
+
+
+[06/29/2023 17:21] nicobevi.eth
+could you explain to me the math behind `getPreUnlockableAmount()` in `ProtocolRewardsPool.sol` ?
+
+
+[06/30/2023 13:05] ST#7092
+Completing the unlocking process ahead of time incurs a maximum loss of 75%. The closer the current time is to the "time2fullRedemption(user)," the lower the loss will be.
+
+
+[06/30/2023 13:35] bean.eth2
+how eUSD can rebase? seems both mint/burn uses the latest ratio(share/supply) @ST
+
+
+[06/30/2023 13:42] georgypetrov
+via this function `excessIncomeDistribution`
+
+
+[06/30/2023 13:50] adeolu
+sent u a dm ser, please check @ST
+
+
+[06/30/2023 14:20] mahdi9606
+What is Rigid Redeem ? And who is Redemption Provider ?
+
+
+[06/30/2023 14:26] zdravkohr
+You can read about it here: https://docs.lybra.finance/lybra-finance-docs/mechanisms/rigid-redemption-and-eusd-price-stability
+
+{Embed}
+https://docs.lybra.finance/lybra-finance-docs/mechanisms/rigid-redemption-and-eusd-price-stability
+Rigid Redemption and eUSD Price Stability
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/PxEvjqnWdQoEPu0ZlamV-71614.png
+
+
+[06/30/2023 17:43] CoOLLaItAr#5816
+Sent you a dm ser, please check @ST 
+I am having some doubt!
+
+
+[07/01/2023 06:42] ST#7092
+The correct interface is getExchangeRate(). This was a mistake.
+
+
+[07/01/2023 06:54] ST#7092
+Yes
+
+
+[07/01/2023 07:59] johnyboy8854
+is ADMIN role also time-locked contract or is it just a multisign that might send transactions without delays?
+
+
+[07/01/2023 14:50] eme0242
+why is code4rena page not loading?
+
+
+[07/01/2023 15:22] itsmetechjay
+It’s loading for me. Are you still experiencing an issue?
+
+
+[07/01/2023 15:37] eme0242
+fine now
+
+
+[07/01/2023 15:37] eme0242
+thanks
+
+
+[07/01/2023 16:09] itsmetechjay
+Ok great thanks.
+
+
+[07/01/2023 16:16] .qeew
+@ST check dm
+
+
+[07/01/2023 16:52] CoOLLaItAr#5816
+@ST  DM
+
+
+[07/01/2023 18:09] 0x3b
+jay I also have an issue with the analysis😅 , it's not submitting
+
+{Reactions}
+👀 
+
+[07/01/2023 19:07] CoOLLaItAr#5816
+like what is boost of an account, can somebody explain to me?
+
+
+[07/01/2023 19:07] CoOLLaItAr#5816
+eg: getBoos(address _account)
+
+
+[07/02/2023 07:36] mrpotatomagic
+@ST @simpler check dm
+
+
+[07/02/2023 09:58] REKCAH#5105
+What is address of stableToken in lybraConfigurator?
+
+
+[07/02/2023 10:04] mrpotatomagic
+USDC is used https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48#code
+
+{Embed}
+https://etherscan.io/token/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+USD Coin (USDC) Token Tracker | Etherscan
+USD Coin (USDC) Token Tracker on Etherscan shows the price of the Token $1.00, total supply 25,483,880,036.657834, number of holders 1,670,131 and updated information of the token. The token tracker page also shows the analytics and historical data.
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/centre-usdc_28-1085C.png
+
+
+[07/02/2023 10:37] azhar0406
+@ST I have sent a dm, pleae check and revert
+
+
+[07/02/2023 19:20] tamayonft
+There is a incentive to a user to call excessIcomeDistribute?
+
+
+[07/02/2023 19:21] tamayonft
+Or Wich should call this function
+
+
+[07/02/2023 19:22] tamayonft
+ExcessIncomeDistribution in lybraStETHVault contract
+
+
+[07/02/2023 20:15] georgypetrov
+you can use this if eUSD price < 1$ cuz in function 1 eUSD = 1$
+
+
+[07/02/2023 20:40] d_auditor
+Does EUSD have any monetary value???
+
+
+[07/02/2023 20:51] d_auditor
+@ST
+
+
+[07/03/2023 06:13] johnyboy8854
+is ADMIN role also time-locked contract or is it just a multisign that might send transactions without delays?
+
+
+[07/03/2023 07:22] mrpotatomagic
+@simpler @ST dmed you
+
+
+[07/03/2023 12:27] adarji
+Can somone help me?
+how to send LBR token to a particular EOA account?
+Thanks
+
+
+[07/03/2023 12:50] delerrh
+Foundry example:
+
+vm.startPrank(deployer);
+lbr = new LBR(address(configurator), 8, goerliEndPoint);
+configurator.setMintVault(deployer, true);
+minerContracts.push(address(deployer));
+minerContractsBools.push(true);
+configurator.setTokenMiner(minerContracts, minerContractsBools);
+lbr.mint(address(alice), 100 * 1e18);
+vm.stopPrank();
+
+{Reactions}
+👍 
+
+[07/03/2023 13:03] adarji
+I have created test hardhat JavaScript it’s giving me gas error configurator contract don’t have eth for gas
+
+
+[07/03/2023 13:03] adarji
+@DelerRH
+
+
+[07/03/2023 13:59] delerrh
+Paste the code here
+
+
+[07/03/2023 14:01] adarji
+@DelerRH
+
+
+[07/03/2023 14:07] adarji
+```
+const { ethers } = require('hardhat');
+const { expect } = require('chai');
+const { BigNumber } = require("ethers");
+
+describe('Lybra Attack', function () {
+
+    const ProtocolRewardsPool = "0xc44B70DD878067bfBc961191C79EA7F9c5aa679a";
+    const LBR = "0xCa933be5e76a3b5C962a763501ff6215f8Cd56aF";
+    const esLBR = "0x71bE199D02c480Ba56075f2F4E81d7E62309D2ad";
+
+    const ATTACKER_ACCOUNT_ADDRESS = "0x9d525E28Fe5830eE92d7Aa799c4D21590567B595";
+
+    const CONFIGURATOR_ACCOUNT_ADDRESS = "0xaB3202Bff6361d926191Af648A32D5811EA3D991";
+
+    it('Lybra Protocol Rewards Pool', async function () {
+
+        const attackerSigner = await ethers.getImpersonatedSigner(ATTACKER_ACCOUNT_ADDRESS);
+        const configuratorSigner = await ethers.getImpersonatedSigner(CONFIGURATOR_ACCOUNT_ADDRESS);
+
+        // Sending ETH from impersonated to attacker for transactions cost
+        // const transaction = await attackerSigner.sendTransaction({
+        //     to: configuratorSigner.address,
+        //     value: ethers.utils.parseUnits("10", 18)
+        // });
+        
+        // Wait for the transaction to be mined
+        // await transaction.wait();
+
+        const contractABILBR = [{"inputs":[{"internalType":"address","name":"user","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"mint","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"}];
+        
+        this.LBR = await ethers.getContractAt(
+            contractABILBR,
+            LBR
+        );
+
+        await this.LBR.connect(configuratorSigner).mint(attackerSigner.address, 1111);
+    });
+});
+```
+
+
+[07/03/2023 14:07] adarji
+here is updated code
+
+
+[07/03/2023 14:07] adarji
+sorry for previous code that was wrong
+
+
+[07/03/2023 14:09] adarji
+InvalidInputError: sender doesn't have enough funds to send tx. The max upfront cost is: 2343606083682415680 and the sender's account only has: 0
+
+
+[07/03/2023 14:25] delerrh
+use hardhat default account by getSigners instead of hardcoded account with no ETH balance
+or you can fund account by setBalance in @nomicfoundation/hardhat-network-helpers
+read hardhat docs and this test for example
+https://github.com/PatrickAlphaC/hardhat-fund-me-fcc/blob/main/test/unit/FundMe.test.js
+
+{Embed}
+https://github.com/PatrickAlphaC/hardhat-fund-me-fcc/blob/main/test/unit/FundMe.test.js
+hardhat-fund-me-fcc/test/unit/FundMe.test.js at main · PatrickAlpha...
+Contribute to PatrickAlphaC/hardhat-fund-me-fcc development by creating an account on GitHub.
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/hardhat-fund-me-fcc-7798B
+
+{Reactions}
+🙏 
+
+[07/03/2023 15:08] REKCAH#5105
+What is difference of PeUSD.sol and PeUSDMainnetStablevision.sol?
+
+
+[07/03/2023 19:32] 0xkazimm
+the `PeUSDMainnetStablevision.sol`  keeps track of the totalShares of eUSD deposited by users and the totalMinted PeUSD while PeUSD is the token used for the cross chain txs as i understand it
+
+
+[07/03/2023 20:00] 0xkazimm
+special thanks to the team that answered our questions specially @simpler  who answered all my question, i hope the best for this protocol and for all wardens 🫡
+
+
+[07/03/2023 20:02] C4
+**🚨 AUDIT ALERT**
+
+@🐺wardens  The **Lybra Finance** audit is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: The sponsor team and judge will review the findings over the next couple of weeks. Keep an eye on #📢announcements for regular updates on how the audit is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a Contest-Admin if you have questions along the way!
+
+{Reactions}
+🫡 (25) 👽 (3) ✅ (3) 
+
+[07/03/2023 20:04] CoOLLaItAr#5816
+Special thanks to @ST
+
+
+[07/03/2023 20:09] mrpotatomagic
+Thank you @ST @simpler
+
+
+[07/03/2023 20:13] golanger
+@ST thanks for coming back to me and good luck going forwards
+
+
+[07/04/2023 07:33] ST#7092
+Thank you all for your hard work.
+
+{Reactions}
+🙏 (18) 🫡 (3) 
+
+[07/04/2023 17:06] adarji
+Check DM pls
+
+
+[07/07/2023 08:08] 0xnirlin
+🫡
+
+
+[07/23/2023 02:35] mosharaf
+Results wen?
+
+
+[07/23/2023 09:34] t1moh
+Not soon, chill out
+
+
+[07/23/2023 13:12] 0xkazimm
+Maybe next month
+
+
+[07/30/2023 10:55] delerrh
+When will the results come?
+
+{Reactions}
+👍 
+
+[07/30/2023 11:45] 0xnirlin
+Good question
+
+
+[07/30/2023 13:58] 0x11singh99
+you are a very good question
+
+
+[07/31/2023 10:29] 0xepley
+2 weeks
+
+
+[07/31/2023 10:29] 0xepley
+max
+
+
+[07/31/2023 10:32] delerrh
+It's strange that this one took so long, more than a month
+
+
+[07/31/2023 11:13] 0x3b
+well it was quite an easy one with many faults, so prob. there are many submissions that need to be judged
+
+{Reactions}
+👍 (2) 💯 
+
+[07/31/2023 18:01] 0xnirlin
+:gummy_bear:
+
+
+[08/01/2023 17:21] t1moh
+He follows the rule, people without +backstage don't have access to referenced issue
+
+
+[08/01/2023 17:22] 0xnevi
+Hmmm not too sure tho then I’ll let the c4 team decide
+
+
+[08/01/2023 17:28] road220
+that's a private repo, you can't see the issues if you don't have +backstage
+
+
+[08/01/2023 17:33] 0xnevi
+I know but I don’t think it is wise to share specific links publicly when contest results are not out. Just my 2 cents. Best to keep discussion in backstage channel i guess although not too sure either.
+
+{Reactions}
+👍🏻 
+
+[08/01/2023 20:17] 0xkazimm
+@0xnev is right as i know, sharing results in public channels is not something allowed as i know 👍🏻
+
+{Reactions}
+💯 
+
+[08/01/2023 20:23] cloudellie
+Thank you wardens for reminding each other of the rules! Much appreciated. 🙂
+
+{Reactions}
+🫡 (2) 
+
+[08/02/2023 01:53] ladboy233
+:gummy_bear:
+
+
+[08/02/2023 10:18] mahyar_hosseini
+Wow it’s strange this one took  so long I don’t think the submissions was more than Maia contest
+
+
+[08/02/2023 10:42] max10afternoon
+The average time to results is 25-34 days, this is still in range (https://docs.code4rena.com/structure/our-process)
+
+{Embed}
+https://docs.code4rena.com/structure/our-process
+Audit timeline
+This is a high level overview of the C4 audit timeline. We have an increasingly detailed operational manual in Notion.
+
+{Reactions}
+👍🏻 
+
+[08/02/2023 10:54] t1moh
+Eventually it has more submissions, than Maia
+
+{Reactions}
+🤯 (2) 🥲 (2) 
+
+[08/02/2023 11:05] mahyar_hosseini
+Wow
+
+
+[08/02/2023 11:26] 0xnirlin
+After waiting rubicon for oblivion, nothing seems too long🫠
+
+{Reactions}
+😂 (3) 
+
+[08/03/2023 05:35] _3agle
+I'm getting a feeling that results are coming soon for Lybra
+
+{Attachments}
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/image-064C9.png
+
+{Reactions}
+👀 (6) 
+
+[08/03/2023 05:46] 0xnirlin
+Real life sherlock 😂
+
+{Reactions}
+😂 (6) 
+
+[08/03/2023 06:00] 0x3b
+There twitter always Front-runs discord...
+Here is the same
+
+
+[08/03/2023 06:00] 0x3b
+They may need some MEV protection
+
+{Reactions}
+😆 (7) 
+
+[08/03/2023 07:44] ihtishamsudo
+yep found the same one with maia, profile was updated a day before results out. so those having lybra in their proile showing, congrats you got something.
+
+
+[08/03/2023 09:58] stormreckson
+I didn't have Maia show on mine but got something
+
+
+[08/03/2023 09:59] ihtishamsudo
+Dk but happened with me
+
+{Reactions}
+👍 
+
+[08/03/2023 10:33] devdacian
+1 confirmed finding for lybra on my profile, yay 🙂
+
+{Reactions}
+chefskiss (7) 
+
+[08/03/2023 10:47] adeolu
+Congratulations!
+
+
+[08/03/2023 10:47] devdacian
+I only submitted 2 findings but the root cause was the same though the exploitation vector was different; wonder if they grouped my findings into the 1.
+
+Either way am very happy, at the time this was my most creative exploit since I started & I was super pumped when I found it. Guess I need to apply for backstage now to see behind the curtain.
+
+{Reactions}
+hi5 (5) 
+
+[08/03/2023 12:29] 0xkazimm
+Did the website is the last update of our findings?! I’m sure at least more than 5-10 of my findings are acceptable 🤔
+
+
+[08/03/2023 12:35] delerrh
+Me too, I was submitted 4H and 2M but only 3 submission accepted🤔
+
+{Reactions}
+🤔 (2) 
+
+[08/03/2023 12:36] 0xkazimm
+I wonder if the website not updated fully yet, cuz I’m sure at least 5-10 HM Will be accepted 😟
+
+{Reactions}
+👍 
+
+[08/03/2023 13:21] lsaudit
+i think it's not fully updated until the scoreboard for the audit will be on. Scoreboard is still empty on the website
+
+
+[08/03/2023 15:01] 0xkazimm
+Yeah maybe !
+
+
+[08/03/2023 15:48] tamayonft
+Me too sr
+
+
+[08/03/2023 15:50] tamayonft
+How you guys can remember how many finding submitted, I saw one confirmed finding but I don't really remember what it was
+
+
+[08/03/2023 16:16] 0xnirlin
+:thisisfine:
+
+
+[08/03/2023 16:37] _paperparachute
+🤑 🎉  Awards for **Lybra Finance**:
+
+$5,144.97 USDC » @HE1M 
+$4,814.85 USDC » cthulhu_cult (@badbird and seanamani)
+$2,247.12 USDC » @turvy_fuzz 
+$2,138.40 USDC » @0xRobocop 
+$1,988.60 USDC » @SpicyMeatball  
+$1,819.66 USDC » Musaka (@0x3b and @ZdravkoHr)
+$1,674.58 USDC » @devival  
+$1,652.48 USDC » @max10afternoon 
+$1,599.87 USDC » @bart1e 
+$1,559.50 USDC » @cccz  
+$1,505.92 USDC » @adeolu 
+$1,444.45 USDC » BugBusters (@nirlin and @0xepley) 
+$841.64 USDC » @Toshii 
+$777.04 USDC » @Sathish9098 
+$674.68 USDC » @bytes032 
+$650.00 USDC » @iceBear 
+$637.84 USDC » @Kenshin 
+$570.57 USDC »  @kutu 
+$563.68 USDC » @T1MOH 
+$550.54 USDC » @MrPotatoMagic 
+$512.30 USDC » @comradeKtg 
+$501.24 USDC » @0xbrett8571 
+$500.00 USDC » @btk 
+$491.31 USDC » @K42 Ψ 
+$433.73 USDC » @josephdara  
+$432.66 USDC » @Brenzee 
+$332.34 USDC » @georgypetrov 
+$327.03 USDC » @Co0nan 
+$318.68 USDC » @Iurii3 
+$308.40 USDC » @squeaky_cactus 
+$301.90 USDC » @Skyge 
+$301.90 USDC » @yjrwkk 
+$295.98 USDC » @RedTiger Auditor 
+$291.12 USDC » @Kaysoft 
+$286.28 USDC » @pep7siup 
+$282.51 USDC » @jnrlouis 
+$281.19 USDC » @n1punp 
+$281.19 USDC » @dacian 
+$232.59 USDC » @No12Samurai 
+$227.59 USDC » @KupiaSec 
+$222.76 USDC » @LokiThe5th 
+$221.44 USDC » @zambody 
+$212.43 USDC » @totomanov 
+$212.43 USDC » @Priyam 
+$204.96 USDC » @Neon2835 
+$202.50 USDC » @Breeje 
+$202.50 USDC » @0xNightRaven
+
+
+[08/03/2023 16:39] _paperparachute
+$196.49 USDC » @DedOhwale (GMT-7) 
+$184.80 USDC » @0xnev 
+$171.84 USDC » @zaevlad 
+$155.96 USDC » @MohammedRizwan 
+$153.89 USDC » LaScaloneta ( @nicobevi.eth, @juancito and @anon )  
+$144.81 USDC » @Azhar 
+$144.81 USDC » @Arz 
+$143.49 USDC » @kankodu  
+$143.49 USDC » @0xcm 
+$137.46 USDC » @DelerRH 
+$122.46 USDC » @solsaver 
+$119.28 USDC » @y51r 
+$114.88 USDC » @kenta  
+$104.56 USDC » @JCN 
+$101.95 USDC » @LuchoLeonel1
+$98.98 USDC » @Cryptic Shepherd 
+$85.68 USDC » @smaul 
+$84.36 USDC » @Bughunter101 
+$84.36 USDC » @!0xcaventa-Malaysia 
+$84.36 USDC » @Jorgect 
+$80.46 USDC » @sces60107 | GimelSec 
+$80.43 USDC » @souilos 
+$80.43 USDC » @David Giladi
+$80.43 USDC » @dharma09 
+$80.43 USDC » @ayo_dev 
+$80.43 USDC » @hunter_w3b  
+$80.43 USDC » @0xAnah 
+$80.43 USDC » @SAQ 
+$80.43 USDC » @Rageur 
+$80.43 USDC » @ReyAdmirado 
+$80.43 USDC » @Arman123  
+$80.43 USDC » @mgf15 
+$76.32 USDC » @hals 
+$76.32 USDC » @D_Auditor 
+$74.49 USDC » @ABAIKUNANBAEV 
+$73.07 USDC » @hl_ 
+$71.41 USDC » @peanuts 
+$70.38 USDC » @Rolezn  
+$64.56 USDC » @0x3b 
+$63.43 USDC » @RedOneN 
+$59.23 USDC » @0xnacho 
+$57.90 USDC » @gkrastenov 
+$47.70 USDC » @gs8nrv 
+$43.05 USDC » @f00l 
+$43.05 USDC » @ayden 
+$40.31 USDC » @0xkazim 
+$38.99 USDC » @yudan 
+$30.90 USDC » @mrudenko 
+$29.06 USDC » @Hama  
+$29.06 USDC » @ke1caM 
+$29.06 USDC » @inspecktor
+
+{Reactions}
+hi5 (7) ❤️ (8) 👽 🫡 (2) 🚀 
+
+[08/03/2023 16:41] _paperparachute
+$29.06 USDC » @0xhacksmithh 
+$28.35 USDC » @Timenov 
+$23.95 USDC » @Olanrewaju 
+$23.95 USDC » @alexweb3 
+$22.41 USDC » @naman1778 
+$18.42 USDC » @mahyar 
+$18.42 USDC » @Silvermist 
+$18.42 USDC » @0xml 
+$18.42 USDC » @cartlex_ 
+$18.42 USDC » @koocola 
+$18.42 USDC » @Zaggle 
+$18.42 USDC » @TorpedoPistolIXC41  
+$16.78 USDC » @Vagner 
+$12.47 USDC » @SAAJ  
+$12.47 USDC » @Santiago Moreno 
+$12.47 USDC » @Raihan 
+$12.47 USDC » @SM3_SS 
+$9.93 USDC » @8olidity 
+$9.93 USDC » @Bauchibred 
+$9.93 USDC » @codetilda 
+$9.93 USDC » @m_Rassska 
+$9.93 USDC » @nonseodion 
+$9.93 USDC » @SanketKogekar 
+$9.93 USDC » @seth_lawson 
+$5.53 USDC » @mahdikarimi 
+$5.53 USDC » @OMEN 
+$1.32 USDC » @SovaSlava 
+$1.32 USDC » @0xgrbr 
+$1.32 USDC » @Qeew 
+$1.32 USDC » @Cryptor 
+$1.32 USDC » @a3yip6 
+$1.32 USDC » @qpzm 
+$1.32 USDC » @0xMAKEOUTHILL 
+
+🏁 Findings summary
+High risk findings: 8 unique (64 total)
+Med risk findings: 23 unique (147 total)
+Gas reports: 22 (Best: JCN)
+QA reports: 42 (Best: 0xnev)
+Advanced analysis reports: 10 (Best: Sathish9098)
+
+Awards will be distributed on Polygon within the next week. Congratulations all!  💸 💸 💸
+
+*Note: If you participated in this audit and don’t see your name on this list, please wait until the report is published and the findings repo is made public to check on your submissions.*
+
+
+[08/03/2023 16:43] topmark1
+nawa oo
+
+
+[08/03/2023 16:43] irving6969
+Omg im on the list, my first valid report ,let’s go
+
+{Reactions}
+❤️ (5) 
+
+[08/03/2023 16:43] jnrlouis
+lmao
+
+
+[08/03/2023 16:43] 0xnevi
+Ohhh best QA new achievement 🤣 for like 30bux. Good practice 💪
+
+{Reactions}
+🫡 
+
+[08/03/2023 16:46] 0xnirlin
+Top 11 hehe
+
+{Reactions}
+🎉 (6) 
+
+[08/03/2023 16:53] 0xepley
+First time more then 1k.. Alhamdulliah
+
+{Reactions}
+🎉 (10) ❤️ (8) 
+
+[08/03/2023 16:55] 0xnirlin
+we about to kill it.
+
+{Reactions}
+🔥 (4) 
+
+[08/03/2023 16:56] 0xepley
+Top 5 next time. Ensha’Allah
+
+{Reactions}
+❤️ (6) 
+
+[08/03/2023 17:02] mgf15
+first A on a GAS 😬
+
+
+[08/03/2023 17:05] lsaudit
+how long till the report is published? I'm more than sure that one of my findings is valid, but i'm not on the list
+
+
+[08/03/2023 17:06] petrichor0961
+. Ensha’Allah
+
+{Reactions}
+❤️ (3) 
+
+[08/03/2023 17:29] neon2835
+2H , but got a little rewards hahah
+
+
+[08/03/2023 22:10] coffiasd
+:chefskiss: :chefskiss:
+
+
+[08/04/2023 01:58] turvec_dev
+OMG I'm screaming🎉, while praying and waiting for my first 3 digits payout I got my first 4 digits payout instead and secured the third position🏆 and made it to top 5🔥
+
+So grateful for the opportunity to compete alongside talented auditors!
+
+{Reactions}
+hi5 (15) 🙌 (2) 💜 (9) 
+
+[08/04/2023 03:25] _3agle
+Yay! My first $$$ payout from a solo C4 contest 🎉🎉🎉
+
+{Reactions}
+🎉 (12) 
+
+[08/04/2023 04:53] cloudellie
+Congrats!! We love to see it!
+
+{Reactions}
+❤️ (4) 
+
+[08/04/2023 04:53] cloudellie
+Congratulations, @Priyam !
+
+{Reactions}
+❤️ (2) 
+
+[08/04/2023 12:28] arpit1
+Congratulation 🚀
+
+{Reactions}
+✌️ (3) 
+
+[08/05/2023 18:57] devival
+My first C4 contest🫡  Thank you!
+
+{Reactions}
+hi5 
+
+[08/05/2023 18:58] devival
+Congratulations!
+
+{Reactions}
+❤️ 
+
+[08/05/2023 19:03] _paperparachute
+Looks like a lot of firsts in this audit! Great job guys 😄
+
+{Reactions}
+➕ (5) 
+
+[08/10/2023 15:43] lsaudit
+hey, how much time does it usually take between publishing results vs publishing the report?
+
+
+[08/10/2023 16:33] thebrittfactor
+It's hard to give a definite timeframe, as it usually depends on sponsor approvals and other factors! The Lybra report is currently in the drafting process 🙂
+
+{Reactions}
+thankyou 
+
+[08/21/2023 16:36] brahma7456
+went through the report and got so much to learn . If I have some doubts regarding issue where can I ask to understand things better ? thanks
+
+
+[08/21/2023 17:02] delerrh
+Why this issue is high?🤔
+https://github.com/code-423n4/2023-06-lybra-findings/issues/673
+
+{Embed}
+https://github.com/code-423n4/2023-06-lybra-findings/issues/673
+The Constructor Caveat leads to bricking of Configurator contract. ...
+Lines of code https://github.com/code-423n4/2023-06-lybra/blob/5d70170f2c68dbd3f7b8c0c8fd6b0b2218784ea6/contracts/lybra/configuration/LybraConfigurator.sol#L80 Vulnerability details Impact In Solid...
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/673-A1F8D
+
+
+[08/21/2023 17:02] lsaudit
+hey, one of the issue has been marked as "sponsor-disputed" without any explaination. Is there any chance to explain, why this issue was rejected: https://github.com/code-423n4/2023-06-lybra-findings/issues/364  ?
+
+{Embed}
+https://github.com/code-423n4/2023-06-lybra-findings/issues/364
+Unrestricted modification of lastWithdrawTime due to lack of access...
+Lines of code https://github.com/code-423n4/2023-06-lybra/blob/5d70170f2c68dbd3f7b8c0c8fd6b0b2218784ea6/contracts/lybra/miner/ProtocolRewardsPool.sol#L105 Vulnerability details Impact This vulnerab...
+Code4rena - ARCHIVE-Q2-2023 - lybra-jun23 [1121168405534343270].txt_Files/364-9342A
+
+
+==============================================================
+Exported 351 message(s)
+==============================================================
